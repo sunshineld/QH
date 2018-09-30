@@ -1,0 +1,43 @@
+.addDialog {
+    .el-dialog {
+        border-radius: 12px;
+        width: 740px;
+        .el-form {
+            width: 50%;
+            margin: 0 auto;
+            .el-form-item__label {
+                letter-spacing: 2px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .el-select {
+                width: 100%;
+            }
+        }
+    }
+}
+//下载，导出button样式
+.downLoadBtn {
+    display: inline-block;
+    width: 88px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    background: #20a0ff;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+//导入成功后的样式
+.importBox .el-dialog{
+    width: 32%;
+    .el-dialog__body {
+        .contentBox {
+            width: 50%;
+            line-height: 2;
+            font-size: 18px;
+            margin: 0 auto;
+        }
+    }
+}
